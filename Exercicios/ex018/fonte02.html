@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+
+    <style>
+        @font-face {
+            font-family: 'love';
+            src: url(fonts/Filxgirl.TTF); format('truetype');
+            font-weight: normal;
+            font-style: normal;
+
+            /* tipos de format()
+            - opentype (otf)
+            - truetype(ttf)
+            - embedded-opentype
+            - truetype-aat (Apple Advanced Typografhy)
+            - svg
+            */
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            font-family: 'love', Arial, Helvetica, sans-serif;
+            font-size: 4em;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus at incidunt corrupti dolorem doloremque quo. Cupiditate laborum illo ullam eos ut fugit rem sequi. Aliquam eveniet velit modi dolorem beatae?</p>
+</body>
+</html>
